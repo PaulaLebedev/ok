@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script&display=swap);
+:root {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1558326567-98ae2405596b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1992&q=80);
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1440px;
+    padding: 1rem 1rem;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    font-size: 20px;
+    padding: 5rem 0;
+}
+
+.conteiner {
+    max-width: 1204px;
+    margin: auto;
+}
+
+.hero-text {
+    max-width: 300px;
+    padding: 1rem 0;
+}
+
+.hero button {
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    font-size: 15px;
+    color: darkgray;
+}
